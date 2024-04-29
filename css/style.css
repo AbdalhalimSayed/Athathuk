@@ -1,0 +1,168 @@
+/* Custom CSS for Navbar */
+*{
+    color: black;
+}
+.contaiber{
+    direction: rtl;
+}
+.navbar {
+    background: #1414c0a2 !important;
+    direction: rtl;
+    
+  }
+  .navbar-brand img {
+    max-width: 100px; /* Adjust the size of the logo as needed */
+  } 
+  .navbar-toggler {
+    order: -1;
+  }
+  .navbar-toggler {
+    order: 0;
+  }
+  .navbar-nav .nav-item {
+   
+    margin-right: 15px;
+  }
+  .nav-item  .nav-link{
+    color: #11fd58 !important;
+    font-size: 19px;
+  }
+  @media (min-width: 762px) {
+    .navbar-nav {
+      direction: rtl;
+    }
+    .navbar-brand {
+      margin-left: auto;
+      margin-right: 0;
+    }
+    
+  }
+  .contact{
+    color: #05ad37;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* description */
+  .info{
+    direction: rtl;
+    margin-top: 100px !important;
+    margin-bottom: 50px !important;
+
+    
+  }
+  .info .description{
+    
+    line-height: 35px; 
+    font-size: 18px;
+  }
+  /* services */
+  .services{
+    direction: rtl;
+    /* margin-top: 50px; */
+
+  }
+  .services p{
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .services h1, .employee h1 , .ways h1 ,.advices h1{
+    text-decoration: underline;
+    color: #05ad37;
+  }
+  .listservices p{
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .card .carousel-item img{
+    width: 25px;
+    height: 250px;
+  }
+  .card p{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  /* employee */
+  .employee ,.advices, .ways , .contact{
+    direction: rtl;
+  }
+  .employee p ,.ways p{
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .listemployee p ,.listways p, .adviceslist p {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  /* employee */
+ /* contact */
+ .contactus{
+    color: black;
+    font-size: 18px;
+    line-height: 35px;
+ }
+ /* contact */
+ /* contactAndcomm */
+ .contactAndcomm{
+    direction: rtl;
+    z-index: 100;
+ }
+ .numberphone{
+  background: #05ad37;
+  border-radius: 30px 0px 0px 30px;
+  box-shadow: -3px -4px  15px -1px green;
+  z-index: 100;
+  position: fixed;
+  top: 120px;
+ }
+ .numberphone p{
+  padding: 8px;
+ }
+ .numberphone p span{
+  display: none;
+  color: white;
+ }
+ .numberphone p:hover span{
+  display: inline;
+ }
+ .numberphone p img{
+  width: 40px;
+  height: 40px;
+ }
+ .whatsapp{
+  background: #0f0fadc9;
+  border-radius: 30px 0px 0px 30px;
+  box-shadow: -3px -4px  15px -1px #0f0fadc9;
+  z-index: 100;
+  position: fixed;
+  top: 200px;
+ }
+ .whatsapp p{
+  padding: 10px;
+ }
+ .whatsapp p span{
+  display: none;
+  color: white;
+ }
+ .whatsapp p:hover span{
+  display: inline;
+ }
+ .whatsapp p img{
+  width: 40px;
+  height: 40px;
+ }
+ /* contactAndcomm */
+ /* contact-box */
+ .contact-box{
+  background: wheat;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+ }
+ .contact-box img{
+  width: 50px;
+  height: 50px;
+ }
+ .contact-box a{
+  text-decoration: none;
+ }
+ @bD@l#@l!m@#112001
